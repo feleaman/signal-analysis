@@ -1,19 +1,8 @@
-# Reco_Signal_Training.py
-# Last updated: 23.09.2017 by Felix Leaman
-# Description:
-# another test
-
-#++++++++++++++++++++++ IMPORT MODULES +++++++++++++++++++++++++++++++++++++++++++++
 import numpy as np
 import matplotlib.pyplot as plt
-# import matplotlib.colors as colors
-# import matplotlib.cm as cm
-# from tkinter import filedialog
-# from skimage import img_as_uint
 from tkinter import Tk
 from tkinter import Button
 from tkinter import filedialog
-
 import os
 import sys
 sys.path.insert(0, './lib') #to open user-defined functions
@@ -21,7 +10,6 @@ sys.path.insert(0, './lib') #to open user-defined functions
 from m_open_extension import *
 from m_fft import *
 from m_demodulation import *
-#from m_pattern import *
 from m_denois import *
 from m_det_features import *
 from m_processing import *
@@ -30,7 +18,6 @@ import argparse
 import pywt
 import pandas as pd
 import datetime
-# import numpy as np
 plt.rcParams['agg.path.chunksize'] = 1000 #for plotting optimization purposes
 from argparse import ArgumentParser
 
